@@ -3,8 +3,8 @@
 /local.properties
 /.idea
 .DS_Store
-/build
-**/build
+/build/kotlin
+/ExamplePlugins/java/openBG/build
 /captures
 .externalNativeBuild
 .cxx
