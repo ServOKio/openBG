@@ -36,13 +36,13 @@ subprojects {
     apply(plugin = "com.android.library")
     apply(plugin = "com.aliucord.gradle")
     // Remove if using Java
-    apply(plugin = "kotlin-android")
+//    apply(plugin = "kotlin-android")
 
     // Fill out with your info
     aliucord {
-        author("DISCORD USERNAME", 123456789L)
-        updateUrl.set("https://raw.githubusercontent.com/USERNAME/REPONAME/builds/updater.json")
-        buildUrl.set("https://raw.githubusercontent.com/USERNAME/REPONAME/builds/%s.zip")
+        author("Derlan#1697", 821545900807028757)
+        updateUrl.set("https://raw.githubusercontent.com/ServOKio/openBG/builds/updater.json")
+        buildUrl.set("https://raw.githubusercontent.com/ServOKio/openBG/builds/%s.zip")
     }
 
     android {

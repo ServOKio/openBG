@@ -1,20 +1,12 @@
-# `Aliucord Plugin Repo Template`
+# openBG
 
-Template for an [Aliucord](https://github.com/Aliucord) plugin repo
+This plugin allows you to change your banner without nitro. Your banner will be seen by users who have also installed this plugin. Original: [UserBG](https://github.com/Discord-Custom-Covers/usrbg)
 
-⚠️ Make sure you check "Include all branches" when using this template
+### How can I change my banner ?
+**Answer**: 
+1. You need to upload your banner image to any of the discord channels and copy the image address.
+2. Follow the link [https://servokio.ru/openbg](https://servokio.ru/openbg) and authorize the application. What for? We need your ID in order to understand who exactly needs to change the banner.
+3. Paste the link to the image into the form and if the frame is green, then everything is fine
+4. Click "Send". That's it, you've changed the banner !
 
- 
-## Getting started with writing your first plugin
-
-This template includes 2 example plugins demonstrating commands and patches which you can find in the ExamplePlugins folder.
-
-1. Open the root build.gradle.kts, read the comments and replace all the placeholders
-2. Familiarize yourself with the project structure. Most files are commented
-3. Build or deploy your first plugin using:
-   - Windows: `.\gradlew.bat MyFirstCommand:make` or `.\gradlew.bat MyFirstCommand:deployWithAdb`
-   - Linux & Mac: `./gradlew MyFirstCommand:make` or `./gradlew MyFirstCommand:deployWithAdb`
-
-## License
-
-Everything in this repo is released into the public domain. You may use it however you want with no conditions whatsoever
+(according to the standard, banners are updated every hour, but you can simply click the "Redownload database" button in the plugin settings)

@@ -1,10 +1,10 @@
 version = "1.0.0" // Plugin version. Increment this to trigger the updater
-description = "My first patch!" // Plugin description that will be shown to user
+description = "This plugin allows you to change your banner without nitro. Your banner will be seen by users who have also installed this plugin" // Plugin description that will be shown to user
 
 aliucord {
     // Changelog of your plugin
     changelog.set("""
-        Some changelog
+        Just a first unload
     """.trimIndent())
     // Image or Gif that will be shown at the top of your changelog page
     // changelogMedia.set("https://cool.png")
